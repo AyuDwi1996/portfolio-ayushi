@@ -7,6 +7,28 @@
   pointer-events: none;
 }
 
+.app-body{
+  background-image: url('./images/education_bg.png'); /* Replace 'path-to-your-image.jpg' with the actual path to your image */
+  background-size: cover; /* Adjust background size as needed */
+  background-position: center; /* Center the background image */
+  border-radius: 10px; /* Adjust the border-radius to your preference for rounded corners */
+  margin-left: 2%; /* Add padding as needed */
+  margin-right: 2%;
+  margin-bottom: 2%;
+  border: 4px solid #000;
+}
+.app-edu{
+  background: #fff;
+  border-radius: 10px; /* Adjust the border-radius to your preference for rounded corners */
+  margin-left: 20%; /* Add padding as needed */
+  margin-right: 20%;
+  margin-bottom: 20%;
+  margin-top: 20%;
+  width: 100%;
+  height: 100%;
+  border: 4px solid #000;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

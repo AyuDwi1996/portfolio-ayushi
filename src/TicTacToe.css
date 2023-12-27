@@ -1,0 +1,34 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .board {
+    margin-top: 20px;
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .square {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #8BD651;
+    cursor: pointer;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
