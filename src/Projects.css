@@ -1,0 +1,36 @@
+.projects-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+
+.projects-container-mobile {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.project-heading{
+    width: 100%;
+    height: 20%;
+    border-radius: 30px;
+    border: 2px solid black;
+    background-color: #FF9240;
+}
+
+.video-container{
+    width: 50%;
+    height: 100%;
+    border: 4px double white;
+}
+
+.project-description{
+    width: 50%;
+    height: 100%;
+    margin: 5%;
+}

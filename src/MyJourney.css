@@ -1,0 +1,46 @@
+.journey-container {
+    display: flex;
+    align-items: center;
+    padding: none;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.journey-heading{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    flex-direction: row;
+}
+
+.journey-body {
+    display: flex;
+    align-items: stretch;
+    padding: none;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+.destination-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 20%;
+    border-radius: 50px;
+    border: 2px solid black;
+    background-color: #FFC928;
+}
+.left-body{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+.right-body{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 30%;
+}

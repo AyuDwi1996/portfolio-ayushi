@@ -3,7 +3,8 @@ import './App.css';
 import Header from './Header';
 import MyTimeline from './MyTimeline';
 import TicTacToe from './TicTacToe';
-import Description from './TicTacToeDescription';
+import Projects from './Projects';
+import MyJourney from './MyJourney';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <div className='app-body'>
         <MyTimeline />
       </div>
-      <Description />
+      <MyJourney />
       <TicTacToe />
     </div>
   );

@@ -1,8 +1,19 @@
+.background{
+  background-image: url('./images/game_bg.png'); /* Replace 'path-to-your-image.jpg' with the actual path to your image */
+  background-size: cover; /* Adjust background size as needed */
+  background-position: center; /* Center the background image */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 20%;
+}
+
 .game {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     font-family: Arial, sans-serif;
+    width: 40%;
   }
   
   .board {
@@ -30,5 +41,30 @@
     margin-bottom: 10px;
     font-size: 18px;
     font-weight: bold;
+    color: #FFC928;
   }
+
+  .text-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10%;
+    width: 100%;
+    height: 20%;
+    border-radius: 50px;
+    border: 2px solid black;
+    background-color: white;
+}
+.social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10%;
+  width: 100%;
+  border-radius: 25px;
+  border: 2px solid black;
+  background-color: white;
+}
   
